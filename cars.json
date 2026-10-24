@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "note": "Semua ukuran dalam meter, kecepatan dalam km/h. Tambah mobil baru cukup dengan menyalin salah satu blok lalu ubah angkanya.",
+  "cars": [
+    {
+      "id": "aurelia-gt",
+      "name": "Aurelia GT",
+      "class": "Grand Tourer",
+      "description": "Mobil touring bermesin depan. Stabil, nyaman, dan kencang di jalan lurus.",
+      "color": "#c1121f",
+      "topSpeed": 318,
+      "zeroTo100": 3.6,
+      "hp": 640,
+      "handling": 0.82,
+      "body": {
+        "length": 4.65, "width": 1.95, "height": 1.25, "wheelbase": 2.78,
+        "hoodLen": 1.75, "tailLen": 1.15, "roofH": 0.43, "rakeF": 0.75, "rakeR": 0.6,
+        "wheelRadius": 0.35, "wheelWidth": 0.3, "clearance": 0.11, "spoiler": false
+      }
+    },
+    {
+      "id": "strada-rs",
+      "name": "Strada RS",
+      "class": "Sport Coupe",
+      "description": "Coupe ringkas yang lincah di tikungan dan enak dibawa drift.",
+      "color": "#0077b6",
+      "topSpeed": 295,
+      "zeroTo100": 3.9,
+      "hp": 560,
+      "handling": 0.86,
+      "body": {
+        "length": 4.4, "width": 1.9, "height": 1.3, "wheelbase": 2.65,
+        "hoodLen": 1.55, "tailLen": 1.0, "roofH": 0.46, "rakeF": 0.7, "rakeR": 0.55,
+        "wheelRadius": 0.34, "wheelWidth": 0.28, "clearance": 0.12, "spoiler": true
+      }
+    },
+    {
+      "id": "fulmine-x",
+      "name": "Fulmine X",
+      "class": "Hypercar",
+      "description": "Hypercar mesin tengah. Bodi rendah, sayap besar, akselerasi brutal.",
+      "color": "#ffb703",
+      "topSpeed": 410,
+      "zeroTo100": 2.3,
+      "hp": 1500,
+      "handling": 0.9,
+      "body": {
+        "length": 4.7, "width": 2.05, "height": 1.1, "wheelbase": 2.7,
+        "hoodLen": 1.6, "tailLen": 0.95, "roofH": 0.33, "rakeF": 0.85, "rakeR": 0.7,
+        "wheelRadius": 0.36, "wheelWidth": 0.34, "clearance": 0.09, "spoiler": true
+      }
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "class": "Supercar",
+      "description": "Supercar gelap dan elegan. Cocok buat jalan malam hari.",
+      "color": "#1a1c22",
+      "topSpeed": 350,
+      "zeroTo100": 2.9,
+      "hp": 800,
+      "handling": 0.88,
+      "body": {
+        "length": 4.6, "width": 1.98, "height": 1.18, "wheelbase": 2.68,
+        "hoodLen": 1.65, "tailLen": 1.0, "roofH": 0.37, "rakeF": 0.8, "rakeR": 0.65,
+        "wheelRadius": 0.355, "wheelWidth": 0.32, "clearance": 0.1, "spoiler": false
+      }
+    },
+    {
+      "id": "tempesta-turbo",
+      "name": "Tempesta Turbo",
+      "class": "Supercar",
+      "description": "Turbo ganas dengan sayap belakang tinggi. Tenaganya datang tiba-tiba.",
+      "color": "#e8ecef",
+      "topSpeed": 340,
+      "zeroTo100": 2.8,
+      "hp": 720,
+      "handling": 0.86,
+      "body": {
+        "length": 4.5, "width": 1.96, "height": 1.3, "wheelbase": 2.66,
+        "hoodLen": 1.6, "tailLen": 1.0, "roofH": 0.44, "rakeF": 0.7, "rakeR": 0.55,
+        "wheelRadius": 0.35, "wheelWidth": 0.3, "clearance": 0.11, "spoiler": true
+      }
+    },
+    {
+      "id": "bastion-gtx",
+      "name": "Bastion GT-X",
+      "class": "Muscle",
+      "description": "Muscle car bermoncong panjang. Berat, bertenaga, dan suka ngebut lurus.",
+      "color": "#0b6e4f",
+      "topSpeed": 290,
+      "zeroTo100": 4.2,
+      "hp": 700,
+      "handling": 0.72,
+      "body": {
+        "length": 4.95, "width": 1.97, "height": 1.38, "wheelbase": 2.85,
+        "hoodLen": 2.05, "tailLen": 1.05, "roofH": 0.46, "rakeF": 0.6, "rakeR": 0.5,
+        "wheelRadius": 0.37, "wheelWidth": 0.32, "clearance": 0.13, "spoiler": false
+      }
+    },
+    {
+      "id": "lumina-ev",
+      "name": "Lumina EV",
+      "class": "Electric",
+      "description": "Sedan listrik super cepat. Tenaga langsung terasa dari kecepatan nol.",
+      "color": "#c9d1d9",
+      "topSpeed": 322,
+      "zeroTo100": 2.1,
+      "hp": 1020,
+      "handling": 0.84,
+      "body": {
+        "length": 4.95, "width": 1.95, "height": 1.4, "wheelbase": 3.0,
+        "hoodLen": 1.25, "tailLen": 0.95, "roofH": 0.5, "rakeF": 1.0, "rakeR": 0.9,
+        "wheelRadius": 0.36, "wheelWidth": 0.29, "clearance": 0.12, "spoiler": false
+      }
+    },
+    {
+      "id": "aqua-corsa",
+      "name": "Aqua Corsa",
+      "class": "Track Special",
+      "description": "Mobil lintasan ringan. Responsnya tajam dan pegangan ban luar biasa.",
+      "color": "#00b4d8",
+      "topSpeed": 330,
+      "zeroTo100": 3.1,
+      "hp": 610,
+      "handling": 0.92,
+      "body": {
+        "length": 4.4, "width": 1.9, "height": 1.2, "wheelbase": 2.6,
+        "hoodLen": 1.5, "tailLen": 0.95, "roofH": 0.4, "rakeF": 0.8, "rakeR": 0.6,
+        "wheelRadius": 0.34, "wheelWidth": 0.3, "clearance": 0.1, "spoiler": true
+      }
+    }
+  ]
+}
